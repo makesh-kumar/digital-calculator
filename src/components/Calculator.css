@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.button-section {
+  background-color: #575757;
+  width: 230px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 1px 1px 20px 1px;
+}
