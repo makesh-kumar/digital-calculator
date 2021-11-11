@@ -27,7 +27,6 @@ function Calculator() {
       setResult("");
       setOperator(e.target.value);
     }
-    console.log("tes ", operator);
     if (!operator && num1.length) {
       setOperator(e.target.value);
     }

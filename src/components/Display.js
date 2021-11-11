@@ -17,7 +17,7 @@ function Display(props) {
     <div className="display-container">
       <div className="content">
         <h2 className={`${result ? `text-sm` : ``}`}>{displayText}</h2>
-        {result ? <h2>{result}</h2> : ""}
+        {result.toString() ? <h2>{result}</h2> : ""}
       </div>
     </div>
   );
